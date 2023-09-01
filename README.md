@@ -9,7 +9,6 @@
 ### 🎓 For Students 
 
 - **Resource Library:** Access essential educational materials like textbooks, articles, and videos.
-- **Quizzes:** Take simple quizzes to assess your knowledge.
 - **🗓️ Time Table:** View the timings of your classes
 - **⏲️ POMODORO:** The study time concentration technique
 
@@ -17,7 +16,6 @@
 
 - **Content Creation:** Quickly create and publish educational content, such as lectures and assignments.
 - **Assignment Giver:** Provide assignments digitally 
-- **📝 Quiz Creation:** Easily create and grade simple quizzes.
 
 ## Support
 
