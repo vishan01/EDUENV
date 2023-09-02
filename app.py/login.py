@@ -10,13 +10,14 @@ page = Html(
         <p>Username</p>
         <taipy:input>{Username}</taipy:input>
         <p>Password</p>
-        <taipy:input>{Password}</taipy:input>
-        <taipy:button on_action="submit">Submit</taipy:button>
+        <taipy:input password=True>{Password}</taipy:input>
 
+
+        <taipy:button on_action="submit">Submit</taipy:button>
     </center>
 """
 )
 
 
 def submit(state):
-    navigate(state, to=dashboard.page)
+    navigate(state, to="dashboard")
