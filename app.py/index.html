@@ -1,16 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>EDUENV</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="navbar">
-      <a href="/home">HOME</a>
-      <a href="/login">Login</a>
-      <a href="#section3">Register</a>
-    </div>
+    <header class="header">
+      <taipy:image on_action="image_click">{logo}</taipy:image>
+      <nav class="nav-items">
+        <a href="#">Home</a>
+        <a href="/login">Login</a>
+        <a href="/register">register</a>
+      </nav>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>EDUCATION ENVIRONMENT</h1>
+        <p>A digital platform to learn</p>
+        <taipy:button on_action="logins">Learn more</taipy:button>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="copy">
+        <taipy:text format="%.2f">{value}</taipy:text>
+      </div>
+      <div class="bottom-links">
+        <div class="links">
+          <span>More Info</span>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="links">
+          <span>Work Space</span>
+          <a href="https://github.com/vishan01/EDUENV"
+            ><i class="fab fa-github"> Repo</i></a
+          >
+          <a href="https://www.linkedin.com/in/vishan1/"
+            ><i class="fab fa-linkedin"> Linkedin</i></a
+          >
+        </div>
+        <div class="links">
+          <span>Social Links</span>
+          <a href="#"><i class="fab fa-facebook"> Facebook</i></a>
+          <a href="#"><i class="fab fa-instagram"> Instagram</i></a>
+          <a href="#"><i class="fab fa-twitter"> Twitter</i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
