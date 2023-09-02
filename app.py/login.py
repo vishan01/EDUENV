@@ -1,24 +1,22 @@
-from taipy.gui import Gui, Markdown, notify, navigate
+from taipy.gui import Gui, Html, notify, navigate
 import dashboard
 
 Username = ""
 Password = ""
-page = Markdown(
+page = Html(
     """
-<center>
-<center> Welcome to Login</center>
-USERNAME
-<|{Username}|input|>
-PASSWORD
-<|{Password}|input|password=True|>
-</center>
-<|Submit|button|on_action=submit|>
+    <center>
+        <h2>Welcome to the Login Page</h2>
+        <p>Username</p>
+        <taipy:input>{Username}</taipy:input>
+        <p>Password</p>
+        <taipy:input>{Password}</taipy:input>
+        <taipy:button on_action="submit">Submit</taipy:button>
+
+    </center>
 """
 )
 
 
 def submit(state):
-    navigate(state, "https://taipy.io")
-
-
-gui = Gui(page=page)
+    navigate(state, to=dashboard.page)

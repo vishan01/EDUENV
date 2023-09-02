@@ -1,6 +1,6 @@
-from taipy.gui import Gui, Markdown, notify
+from taipy.gui import Gui, Html, notify
 
-page = Markdown("""
-# Hello
+page = Html("""
+<h1>Hello</h1>
 
 """)

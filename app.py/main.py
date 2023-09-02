@@ -8,16 +8,12 @@ value = 0
 logo = "./images/Homepage.png"
 
 
-page1 = Html(
-    """
-
-
-"""
-)
+page1 = Html("app.py/index.html")
 
 
 def image_action(state):
-    webbrowser.open("https://taipy.io")
+    webbrowser.open(
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley")
 
 
 def on_push(state):
@@ -34,10 +30,10 @@ def on_change(state, var_name: str, var_value):
 
 
 page = {
-    "page1": page1
+    "home": page1
 }
 
 if __name__ == "__main__":
-    gui = Gui(pages=page)
+    gui = Gui(pages=page, css_file="/styles.css")
     gui.add_page(name="login", page=login.page)
     gui.run(title="EDUENV")
