@@ -1,0 +1,7 @@
+.About{
+    align-content: center;
+    --container-max-width: 75rem;
+}
+#navbar{
+    align-items: flex-end;
+}

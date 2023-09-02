@@ -1,31 +1,17 @@
-"""
-A single-page Taipy application.
-
-Please refer to https://docs.taipy.io/en/latest/manuals/gui/ for more details.
-"""
-
 import webbrowser
 
-from taipy.gui import Gui, Markdown, notify
+from taipy.gui import Gui, Markdown, notify, Html
+import login
+import dashboard
 
 value = 0
-logo = "images/taipy_logo.jpg"
+logo = "./images/Homepage.png"
 
-page = Markdown(
-"""
-<center>
-<|navbar|lov={[("page1", "Homepage"), ("https://docs.taipy.io/en/latest/manuals/about/", "Taipy Docs"), ("https://docs.taipy.io/en/latest/getting_started/", "Getting Started")]}|>
-</center>
 
-<|
-<center>
-    <|{logo}|image|height=200px|width=200px|on_action=image_action|>
-</center>
-|>
+page1 = Html(
+    """
 
-# Taipy Application
 
-<|{value}|slider|on_change=on_slider|> <|Push|button|on_action=on_push|>
 """
 )
 
@@ -47,6 +33,11 @@ def on_change(state, var_name: str, var_value):
     ...
 
 
+page = {
+    "page1": page1
+}
+
 if __name__ == "__main__":
-    gui = Gui(page=page)
+    gui = Gui(pages=page)
+    gui.add_page(name="login", page=login.page)
     gui.run(title="EDUENV")
