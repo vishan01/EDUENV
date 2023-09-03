@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <h1>Register</h1>
+        <form>
+          <taipy:toggle lov="student;teacher">{value}</taipy:toggle>
+          <taipy:input label="Username">{username}</taipy:input>
+          <taipy:input label="Password" password="True">{password}</taipy:input>
+          <taipy:input label="Confirm Password" password="True"
+            >{password1}</taipy:input
+          >
+          <div class="signup_link">
+            Have an Account ? <a href="/login">Login Here</a>
+          </div>
+          <div class="button">
+            <taipy:button on_action="Sign_up">Sign up</taipy:button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
