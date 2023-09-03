@@ -11,11 +11,13 @@
 - **Resource Library:** Access essential educational materials like textbooks, articles, and videos.
 - **🗓️ Time Table:** View the timings of your classes
 - **⏲️ POMODORO:** The study time concentration technique
-
+- **Courses:** Courses for betterment
+ 
 ### 👩‍🏫 For Teachers
 
 - **Content Creation:** Quickly create and publish educational content, such as lectures and assignments.
-- **Assignment Giver:** Provide assignments digitally 
+- **Assignment Giver:** Provide assignments digitally
+- **Time Table:** Time table maker
 
 ## Support
 
