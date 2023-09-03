@@ -19,6 +19,13 @@
 - **Assignment Management:** Easily distribute assignments to students.
 - **Time Table:** Create and manage class schedules effortlessly.
 
+## Tools Used
+ ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+ 
+![Taipy](https://img.shields.io/badge/Taipy-DD1200?style=for-the-badge&logo=python&logoColor=white) 
+![MONGODB](https://img.shields.io/badge/MONGODB-darkgreen?style=for-the-badge&logo=mongodb&logoColor=white) 
+
+
 ## Setup
 
 Follow these steps to set up and run EDUENV on your local machine:
