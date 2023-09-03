@@ -1,13 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Teko:wght@600&display=swap');
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+     
   }
-.header h1{
-    align-items: flex-start;
+.header a{
+    text-size-adjust: auto;
 }
-  
-  .nav-items {
+.header h1{
+    align-items:start;
+    margin-left: 2px;
+    
+}
+.taipy-part{
+    width: 1100px;
+    height: 527px;
+}
+.pom{
+    display: grid;
+    
+}
+.first{
+    display: flex;
+}
+
+.anav{ 
+    font-family: "Libre Baskerville";
+    color: rgb(137, 176, 177);
+    background-color: #00052b94;
+    box-shadow: var(--box-shadow);
+    width: 433px;
+    height:1000px;
+}
+
+.anav h2:hover{
+    font-family: "Libre Baskerville";
+    color: #ffffff;
+    text-align: center;
+}
+.nav-items {
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -29,3 +62,4 @@
     background-color: #6dcaec;
     color: #000000;
   }
+
