@@ -24,3 +24,9 @@ If you have any questions or encounter issues with the application, please conta
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md). Feel free to use and modify EDUENV as needed.
+
+## Credits
+Thanks to:
+- https://schedulebuilder.org/
+- https://pomofocus.io/
+- https://freecodecamp.org
