@@ -7,11 +7,81 @@
     <link rel="stylesheet" href="./dashboard.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>Hello, Student</h1>
+    <header class="header" id="home">
+      <h1><i> Hello,</i> Student</h1>
       <nav class="nav-items">
-        <a href="/home">Log Out</a>
+        <a href="/home">Log out</a>
       </nav>
     </header>
+    <main>
+      <div class="first">
+        <div class="anav">
+          <div style="position: fixed; overflow-y: auto">
+            <a href="dashboard"><h2>Home</h2></a>
+            <a href="pom"><h2>Pomodoro</h2></a>
+            <a href="https://www.youtube.com/@freecodecamp/playlists"
+              ><h2>Courses</h2></a
+            >
+            <a
+              href="https://drive.google.com/drive/folders/10WjhgCMAkgs0TvQ8A9VzBVu7EeDHa7q6"
+              ><h2>Resources</h2></a
+            >
+            <a
+              href="https://drive.google.com/drive/u/0/folders/1d9VEp_pQSMlXhIH_qOckZ_SzyW9fh3_c"
+              ><h2>Assignments</h2></a
+            >
+
+            <a href="./images/schedule.png" target="_blank"
+              ><h2>Time Table</h2></a
+            >
+          </div>
+        </div>
+        <div class="pom" id="pom">
+          <taipy:part page="https://pomofocus.io/" />
+          <div id="res">
+            <iframe
+              width="500px"
+              height="300px"
+              src="https://www.youtube.com/embed/8mAITcNt710?si=_BKHz4rrjc77LuG9"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="margin: 5px 5px; margin-left: 30px"
+            ></iframe>
+            <iframe
+              width="500px"
+              height="300px"
+              src="https://www.youtube.com/embed/8jLOx1hD3_o?si=hMNzazObyQJKoZ5u"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="margin: 5px 5px; margin-left: 30px"
+            ></iframe>
+            <iframe
+              width="500px"
+              height="300px"
+              src="https://www.youtube.com/embed/zJSY8tbf_ys?si=MUZ6o-kYv0k-wXrI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="margin: 5px 5px; margin-left: 30px"
+            ></iframe>
+            <iframe
+              width="500px"
+              height="300px"
+              src="https://www.youtube.com/embed/y2kg3MOk1sY?si=SzzmAEsTn-_EJhqq"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              style="margin: 5px 5px; margin-left: 30px"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
