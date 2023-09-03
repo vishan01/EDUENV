@@ -1,3 +1,3 @@
 from taipy.gui import Gui, Html, navigate
 
-page = Html("")
+page = Html("app.py/dashboard1.html")
