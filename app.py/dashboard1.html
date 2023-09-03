@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teacher</title>
+    <link rel="stylesheet" href="./dashboard1.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <h1><i> Hello,</i> Teacher</h1>
+      <nav class="nav-items">
+        <a href="/home">Log out</a>
+      </nav>
+    </header>
+    <main>
+      <div class="first">
+        <div class="anav">
+          <div style="position: fixed; overflow-y: auto">
+            <a href="dashboard1"><h2>Home</h2></a>
+            <a href="pom"><h2>Time Table</h2></a>
+            <a
+              href="https://drive.google.com/drive/u/0/folders/1d9VEp_pQSMlXhIH_qOckZ_SzyW9fh3_c"
+              ><h2>Assignments</h2></a
+            >
+            <a
+              href="https://drive.google.com/drive/folders/10WjhgCMAkgs0TvQ8A9VzBVu7EeDHa7q6"
+              ><h2>Resources</h2></a
+            >
+          </div>
+        </div>
+        <div class="pom" id="pom">
+          <taipy:part page="https://schedulebuilder.org/#contentTable" />
+          <div id="res"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
